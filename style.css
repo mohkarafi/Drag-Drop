@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(16, 0, 50), rgb(51, 51, 61));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left,
+#right {
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 1px dashed #05f3f3;
+}
+
+.list {
+
+    height: 62px;
+    background: rgb(31, 150, 174);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    color: #fff;
+}
+
+.list img {
+    width: 9px;
+    margin: 0 14px 0 20px;
+
+}
